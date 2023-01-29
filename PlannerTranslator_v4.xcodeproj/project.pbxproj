@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAE9B378DBEF91FD37FEAE6B /* Pods_PlannerTranslator_v4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620A1C3FE70A202EF510C199 /* Pods_PlannerTranslator_v4.framework */; };
+		FE4368F229859775009366F2 /* MoyaRequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4368ED29859775009366F2 /* MoyaRequestType.swift */; };
+		FE4368F329859775009366F2 /* MoyaNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4368EE29859775009366F2 /* MoyaNetworkManager.swift */; };
+		FE4368F429859775009366F2 /* MoyaRequestType+TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4368EF29859775009366F2 /* MoyaRequestType+TestData.swift */; };
+		FE4368F529859775009366F2 /* OrdersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4368F029859775009366F2 /* OrdersModel.swift */; };
+		FE4368F629859775009366F2 /* ResponseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4368F129859775009366F2 /* ResponseAPI.swift */; };
 		FE91B1B6296564900063ED03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B1B5296564900063ED03 /* AppDelegate.swift */; };
 		FE91B1B8296564900063ED03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91B1B7296564900063ED03 /* SceneDelegate.swift */; };
 		FE91B1BD296564900063ED03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE91B1BB296564900063ED03 /* Main.storyboard */; };
@@ -50,6 +56,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		620A1C3FE70A202EF510C199 /* Pods_PlannerTranslator_v4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlannerTranslator_v4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F76128FDBA780CA38A14E6 /* Pods-PlannerTranslator_v4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlannerTranslator_v4.release.xcconfig"; path = "Target Support Files/Pods-PlannerTranslator_v4/Pods-PlannerTranslator_v4.release.xcconfig"; sourceTree = "<group>"; };
+		D5921C8DC32DD6CEE85BD304 /* Pods-PlannerTranslator_v4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlannerTranslator_v4.debug.xcconfig"; path = "Target Support Files/Pods-PlannerTranslator_v4/Pods-PlannerTranslator_v4.debug.xcconfig"; sourceTree = "<group>"; };
+		FE4368ED29859775009366F2 /* MoyaRequestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaRequestType.swift; sourceTree = "<group>"; };
+		FE4368EE29859775009366F2 /* MoyaNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaNetworkManager.swift; sourceTree = "<group>"; };
+		FE4368EF29859775009366F2 /* MoyaRequestType+TestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MoyaRequestType+TestData.swift"; sourceTree = "<group>"; };
+		FE4368F029859775009366F2 /* OrdersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersModel.swift; sourceTree = "<group>"; };
+		FE4368F129859775009366F2 /* ResponseAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseAPI.swift; sourceTree = "<group>"; };
 		FE91B1B2296564900063ED03 /* PlannerTranslator_v4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlannerTranslator_v4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE91B1B5296564900063ED03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE91B1B7296564900063ED03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAE9B378DBEF91FD37FEAE6B /* Pods_PlannerTranslator_v4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,11 +119,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB3550A4D531DFB4B74F735F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				620A1C3FE70A202EF510C199 /* Pods_PlannerTranslator_v4.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD3B15FAA5A4C2E4A2BF3B46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5921C8DC32DD6CEE85BD304 /* Pods-PlannerTranslator_v4.debug.xcconfig */,
+				73F76128FDBA780CA38A14E6 /* Pods-PlannerTranslator_v4.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE4368EB29859775009366F2 /* PlannerTranslator_v4Network */ = {
+			isa = PBXGroup;
+			children = (
+				FE4368EC29859775009366F2 /* Moya */,
+			);
+			path = PlannerTranslator_v4Network;
+			sourceTree = "<group>";
+		};
+		FE4368EC29859775009366F2 /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				FE4368ED29859775009366F2 /* MoyaRequestType.swift */,
+				FE4368EE29859775009366F2 /* MoyaNetworkManager.swift */,
+				FE4368EF29859775009366F2 /* MoyaRequestType+TestData.swift */,
+				FE4368F029859775009366F2 /* OrdersModel.swift */,
+				FE4368F129859775009366F2 /* ResponseAPI.swift */,
+			);
+			path = Moya;
+			sourceTree = "<group>";
+		};
 		FE91B1A9296564900063ED03 = {
 			isa = PBXGroup;
 			children = (
+				FE4368EB29859775009366F2 /* PlannerTranslator_v4Network */,
 				FE91B1B4296564900063ED03 /* PlannerTranslator_v4 */,
 				FE91B1B3296564900063ED03 /* Products */,
+				AD3B15FAA5A4C2E4A2BF3B46 /* Pods */,
+				AB3550A4D531DFB4B74F735F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -264,9 +319,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE91B1DF296564910063ED03 /* Build configuration list for PBXNativeTarget "PlannerTranslator_v4" */;
 			buildPhases = (
+				49504B8CE44F90E1CDF300B3 /* [CP] Check Pods Manifest.lock */,
 				FE91B1AE296564900063ED03 /* Sources */,
 				FE91B1AF296564900063ED03 /* Frameworks */,
 				FE91B1B0296564900063ED03 /* Resources */,
+				CDA6D007FFFC6989847ABBCA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -383,6 +440,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49504B8CE44F90E1CDF300B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlannerTranslator_v4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDA6D007FFFC6989847ABBCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlannerTranslator_v4/Pods-PlannerTranslator_v4-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlannerTranslator_v4/Pods-PlannerTranslator_v4-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlannerTranslator_v4/Pods-PlannerTranslator_v4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FE91B1AE296564900063ED03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -391,6 +490,7 @@
 				FE95530729668E1A001CE332 /* OrderDetailRouter.swift in Sources */,
 				FE95530629668E1A001CE332 /* OrderDetailInteractor.swift in Sources */,
 				FE955311296738FB001CE332 /* CustomerAPI.swift in Sources */,
+				FE4368F429859775009366F2 /* MoyaRequestType+TestData.swift in Sources */,
 				FE95530429668E1A001CE332 /* OrderDetailViewController.swift in Sources */,
 				FE95530929668EBD001CE332 /* OrderAPI.swift in Sources */,
 				FE9552FF29668E1A001CE332 /* OrderListProtocols.swift in Sources */,
@@ -400,11 +500,15 @@
 				FE9552FD29668E1A001CE332 /* OrderListPresenter.swift in Sources */,
 				FE95530229668E1A001CE332 /* MainTabbarViewController.swift in Sources */,
 				FE9552E329667974001CE332 /* OrderItem.swift in Sources */,
+				FE4368F329859775009366F2 /* MoyaNetworkManager.swift in Sources */,
 				FE95530129668E1A001CE332 /* OrderListRouter.swift in Sources */,
 				FE95530329668E1A001CE332 /* OrderDetailPresenter.swift in Sources */,
 				FE91B1B6296564900063ED03 /* AppDelegate.swift in Sources */,
 				FE9553352967F208001CE332 /* Helper.swift in Sources */,
+				FE4368F629859775009366F2 /* ResponseAPI.swift in Sources */,
 				FE9552E529667BC5001CE332 /* CustomerItem.swift in Sources */,
+				FE4368F229859775009366F2 /* MoyaRequestType.swift in Sources */,
+				FE4368F529859775009366F2 /* OrdersModel.swift in Sources */,
 				FE95530529668E1A001CE332 /* OrderDetailProtocols.swift in Sources */,
 				FE91B1B8296564900063ED03 /* SceneDelegate.swift in Sources */,
 				FE9552FE29668E1A001CE332 /* OrderListViewController.swift in Sources */,
@@ -576,6 +680,7 @@
 		};
 		FE91B1E0296564910063ED03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5921C8DC32DD6CEE85BD304 /* Pods-PlannerTranslator_v4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -604,6 +709,7 @@
 		};
 		FE91B1E1296564910063ED03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73F76128FDBA780CA38A14E6 /* Pods-PlannerTranslator_v4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
