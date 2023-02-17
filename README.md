@@ -1,5 +1,3 @@
 # PlannerTranslator_v4
-# Start_AirTable
-# Final_Airtable
-# Final_Airtable
-# Final_Airtable
+
+This project is just example for tutorial and is a part of large project.
